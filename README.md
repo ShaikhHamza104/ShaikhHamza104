@@ -1,48 +1,10 @@
-<!-- ========================================================================= -->
-<!-- SEO & AI CRAWLER METADATA BLOCK (JSON-LD Semantic Schema for Search Bots) -->
-<!--
-{
-  "@context": "https://schema.org",
-  "@type": "Person",
-  "name": "Mohd Hamza Shaikh",
-  "alternateName": "Hamza Shaikh",
-  "jobTitle": "Data Analyst & Analytics Engineer",
-  "description": "Data Analyst and Analytics Engineer based in Mumbai, India. Specialized in Python, SQL, FastAPI, Star-Schema Data Modeling, Web Scraping with Selenium, and Power BI dashboards.",
-  "address": {
-    "@type": "PostalAddress",
-    "addressLocality": "Mumbai",
-    "addressRegion": "Maharashtra",
-    "addressCountry": "India"
-  },
-  "alumniOf": "Vidyalankar School of Information Technology (VSIT)",
-  "knowsAbout": [
-    "Data Analysis",
-    "Analytics Engineering",
-    "Data Science",
-    "FastAPI",
-    "SQL (MySQL, DuckDB, PostgreSQL)",
-    "Python (Pandas, NumPy, Scikit-Learn)",
-    "ETL Pipelines",
-    "Web Scraping (Selenium, BeautifulSoup)",
-    "Business Intelligence (Power BI, Tableau)",
-    "Dimensional Modeling",
-    "Feature Engineering for Machine Learning"
-  ],
-  "sameAs": [
-    "https://github.com/ShaikhHamza104",
-    "https://www.linkedin.com/in/hamza-shaikh-data"
-  ]
-}
--->
-<!-- ========================================================================= -->
-
 <div align="center">
-  <h1>Mohd Hamza Shaikh</h1>
-  <p><strong>Data Analyst | Analytics Engineer | Python & BI Developer</strong></p>
+  <h1>Hamza Shaikh</h1>
+  <p><strong>Aspiring Data Analyst | Data Engineering | Python & BI</strong></p>
   <p>📍 Mumbai, India</p>
 
   <p>
-    <a href="https://www.linkedin.com/in/hamza-shaikh-data">
+    <a href="https://www.linkedin.com/in/hamza-shaikh-4a65b02a9">
       <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
     </a>
     <a href="https://github.com/ShaikhHamza104">
@@ -51,126 +13,107 @@
     <a href="mailto:kmohdhamza10@gmail.com">
       <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
     </a>
-    <a href="https://drive.google.com/drive/folders/1iOYZ7cEFiwEuk6G9I05ev7sRdD0DBiFi?usp=sharing">
-      <img src="https://img.shields.io/badge/Project%20Drive-4285F4?style=for-the-badge&logo=googledrive&logoColor=white" alt="Project Files" />
+    <a href="https://ShaikhHamza104.github.io">
+      <img src="https://img.shields.io/badge/Portfolio-0070f3?style=for-the-badge&logo=githubpages&logoColor=white" alt="Portfolio" />
     </a>
   </p>
 </div>
 
 ---
 
-### 🔍 Profile Overview & Search Summary
+### 👋 About Me
 
-Mohd Hamza Shaikh is a **Data Analyst** and **Analytics Engineering** practitioner based in Mumbai, pursuing a B.Sc. in Information Technology at VSIT. He specializes in designing end-to-end data workflows: from **dynamic web scraping and API engineering (FastAPI)** to **star-schema dimensional modeling (SQL/Parquet)**, **feature engineering for Machine Learning**, and **interactive Power BI executive dashboards**.
+BSc IT student at VSIT, Mumbai, targeting **Data Analyst, BI Analyst, Junior Data Engineer and Analytics Engineer** roles, with a path into **Data Science**. I build end-to-end data projects: ETL pipelines, SQL analytics, star-schema modeling, APIs and Power BI dashboards.
 
-* 🎯 **Target Roles:** Data Analyst, Junior Analytics Engineer, Business Intelligence Analyst, Python Data Developer
-* 💡 **Core Expertise:** End-to-end ETL pipelines, automated web data extraction, SQL cohort analytics, feature preparation for ML models.
-* 📍 **Location:** Mumbai, Maharashtra, India (Open to local, hybrid, and remote opportunities).
+* 🎯 **Target roles:** Data Analyst, BI Analyst, Junior Data Engineer, Analytics Engineer
+* 📚 **Learning:** statistics, hypothesis testing, scikit-learn (CampusX Data Science Mentorship)
 
 ---
 
-### 🛠️ Technical Competencies
+### 🛠️ Tech Stack
 
-| Domain | Technologies & Tools |
+| Domain | Technologies |
 | :--- | :--- |
-| **Languages & Querying** | Python, SQL, C# |
-| **Data Manipulation & Analysis** | Pandas, NumPy, Polars, DuckDB, Excel (Advanced Formulas & Pivot Tables) |
-| **Data Engineering & APIs** | FastAPI, RESTful APIs, SQLAlchemy, Apache Parquet, ETL Pipelines, pytest |
-| **Web Scraping & Ingestion** | Selenium WebDriver, BeautifulSoup, Dynamic DOM Parsing, Regex Extraction |
-| **Databases & Warehousing** | MySQL, Relational Database Normalization, Star Schema, Dimensional Modeling |
-| **Business Intelligence (BI)** | Power BI (DAX, Power Query), Tableau, Matplotlib, Seaborn, Plotly Express |
-| **Machine Learning Preparation** | Feature Engineering, Data Imputation, Outlier Handling, Scikit-Learn Preprocessing |
-| **DevOps & Tooling** | Git, GitHub, Docker, UV, Jupyter Notebooks |
+| **Analytics & BI** | SQL (MySQL, DuckDB), Power BI (DAX, Power Query), star-schema modeling, EDA |
+| **Data Engineering** | ETL pipelines, DuckDB, Apache Parquet, MySQL, SQLite, SQLAlchemy, Bronze/Silver data layers, data quality validation |
+| **Python** | Pandas, NumPy, Matplotlib, Seaborn, Plotly, Pydantic, pytest |
+| **APIs & Collection** | FastAPI, REST API design, ASGI middleware, Selenium, BeautifulSoup, Regex |
+| **Tools** | Git, GitHub, Docker, Streamlit, Jupyter, Marimo, Uvicorn, uv, Linux/Bash |
 
 ---
 
-### 🚀 Highlighted Projects
+### 🚀 Featured Projects
 
-#### 1. 🏏 [IPL Cricket Analytics REST API Engine](https://drive.google.com/drive/folders/1iOYZ7cEFiwEuk6G9I05ev7sRdD0DBiFi?usp=sharing)
-*A high-throughput, asynchronous RESTful API for querying historical Indian Premier League match statistics, player records, and head-to-head metrics.*
+#### 1. 🏏 [CricPulse-Engine – High-Performance IPL Analytics API](https://github.com/ShaikhHamza104/CricPulse-Engine)
+`Python 3.13` `FastAPI` `DuckDB` `Apache Parquet` `Pydantic v2` `Uvicorn`
 
 ```text
-Raw IPL Match & Ball-by-Ball Data ➔ Data Normalization ➔ FastAPI Microservice ➔ Pydantic Validation ➔ Swagger UI Endpoints
+Cricsheet Data ➔ ETL ➔ DuckDB Bronze (raw) ➔ Silver (cleaned) + Parquet ➔ FastAPI Endpoints
 ```
 
-* **API Architecture:** Built high-performance async endpoints using **FastAPI** to serve complex cricket analytics with low latency.
-* **Data Validation & Serialization:** Enforced strict schema contracts and input validation using **Pydantic** models, preventing malformed query requests.
-* **Analytical Queries:** Implemented dynamic query parameters allowing clients to filter player strike rates, bowling economy, venue-specific trends, and franchise head-to-head records.
-* **Interactive Documentation:** Configured automated interactive OpenAPI / Swagger UI documentation (`/docs`) for easy endpoint testing and client consumption.
-* **Access Deliverables:** [**View Project Files on Google Drive ↗**](https://drive.google.com/drive/folders/1iOYZ7cEFiwEuk6G9I05ev7sRdD0DBiFi?usp=sharing)
+* Built an automated Python ETL pipeline processing **1,243 matches (295,000+ deliveries)** into DuckDB raw (Bronze) and cleaned (Silver) tables backed by Parquet.
+* Designed a **5-stage data quality gate**: resolved 51 missing venue/city records, harmonized franchise rebrandings, and validated 14,705 dismissals with 0 nulls.
+* Developed FastAPI + Pydantic v2 endpoints with **sub-30ms** analytical aggregations: player career profiles, head-to-head rivalries and season leaderboards.
+* Added ASGI middleware under a 512MB RAM limit: rate limiting (60 req/min), OWASP security headers, request ID tracing and latency profiling.
 
 ---
 
-#### 2. 📱 [Smartprix Smartphone Dynamic Scraping & ML-Ready Data Pipeline](https://www.smartprix.com/)
-*An end-to-end data acquisition and feature engineering pipeline extracting unstructured smartphone specifications to produce a production-ready machine learning dataset.*
+#### 2. 📊 [Brazilian E-Commerce Analytics (Olist)](https://github.com/ShaikhHamza104/brazilian-ecommerce-analytics)
+`MySQL` `Python` `Pandas` `PyArrow` `Power BI` `DAX` `pytest`
 
 ```text
-Smartprix Infinite Scroll ➔ Selenium Dynamic Scraping ➔ HTML Parsing ➔ Regex Feature Extraction ➔ Data Quality Cleaning ➔ ML-Ready Features
+9 Relational CSVs ➔ Python Cleaning ➔ MySQL (3NF) ➔ Star Schema (Parquet) ➔ 4-Page Power BI Report
 ```
 
-* **Automated Web Scraping:** Developed automated browser automation scripts with **Selenium** to handle infinite scrolling, dynamic JavaScript rendering, and anti-scraping delays across 1,000+ smartphone listings on Smartprix.
-* **Data Cleaning & Regular Expressions:** Parsed deeply nested specification text using **BeautifulSoup** and **Regex** to extract clean numerical features for processor clock speeds, RAM size, battery capacity (mAh), camera configurations, and fast-charging wattages.
-* **Tidiness & Data Quality Resolution:** Handled non-standardized units, missing values, duplicate model SKUs, and anomalous pricing entries.
-* **Feature Engineering for ML:** Created derived metrics such as price-to-performance indices, PPI (pixel-per-inch) calculation, and categorical brand encoding ready for price prediction models.
+* Modeled 9 raw CSVs (about 100K orders) into a 3NF MySQL database, then a **7-table star schema** (5 dimensions, 2 facts) in Parquet feeding a 4-page Power BI report.
+* Wrote analytical SQL with CTEs and window functions (LAG, ROW_NUMBER, SUM OVER) for MoM growth, cohort retention, Pareto analysis and delivery performance.
+* **Findings:** late deliveries cut average review scores from 4.29 to 1.70; the top 17.65% of sellers generate about 80% of revenue; repeat buyers spend 91.3% more over their lifetime.
+* Separated `customer_id` from `customer_unique_id` to recover 3,217 repeat purchases; wrote 19 pytest tests for the cleaning package.
 
 ---
 
-#### 3. 📊 [Brazilian E-Commerce Analytics Platform](https://github.com/ShaikhHamza104/brazilian-ecommerce-analytics)
-*An enterprise-grade sales and customer analytics platform built on the Olist dataset (100k+ records).*
+#### 3. 📱 [SmartPulse – Mobile Phone Data Intelligence Platform](https://github.com/ShaikhHamza104/SmartPulse)
+`Python` `Selenium` `BeautifulSoup` `Pandas` `Docker` `Plotly`
 
 ```text
-9 Relational CSVs ➔ Python Ingestion Pipeline ➔ MySQL Normalization ➔ Star Schema (Parquet) ➔ 4-Page Power BI Suite
+Smartprix Listings ➔ Selenium Scraping ➔ Cleaning Module ➔ Analytics ➔ Docker Image
 ```
 
-* **Robust Data Ingestion:** Automated ingestion of 100,000+ orders across 9 relational tables into MySQL using SQLAlchemy, verified with automated `pytest` suites.
-* **Dimensional Modeling:** Engineered an optimized star-schema analytical datamart using Fact and Dimension tables saved in columnar Apache Parquet format.
-* **Deep SQL Analytics:** Authored CTEs and multi-window functions to calculate customer retention cadences, delivery turnaround times, and regional logistics efficiency.
-* **Key Findings:** 
-  * Repeat buyers spent **~91% more** on average than single-purchase customers.
-  * The top **17.65% of sellers** generated **80% of total Gross Merchandise Value (GMV)**.
-* **Repository Link:** [**Explore GitHub Repository ↗**](https://github.com/ShaikhHamza104/brazilian-ecommerce-analytics)
+* Built a scraping and analytics pipeline collecting **500+ smartphone listings** from Smartprix, with retry logic and automatic pagination.
+* Wrote a cleaning module to standardize prices and specs and remove duplicates.
+* Containerized the app with Docker and published the image to Docker Hub.
 
 ---
 
-### 💼 Work Experience
+### 💼 Experience
 
-#### **Software Engineering Intern** | TechStalwarts Software Development LLP
-*June 2023 – July 2023 | Mumbai, India*
+**Software Engineering Intern** | TechStalwarts Software Development LLP | *June 2023 – July 2023*
 
-* Developed modular Python ingestion components to process incoming business datasets reliably.
-* Enhanced internal REST API architectures using FastAPI to optimize data delivery to client frontends.
-* Engineered automated ETL data validation checkpoints prior to database insertion, lowering data integrity bugs.
+* Built Python data ingestion components for backend data workflows.
+* Improved FastAPI endpoints used to serve data.
+* Added ETL validation checks to catch bad records before loading.
 
 ---
 
 ### 🎓 Education
 
-* **Bachelor of Science in Information Technology (B.Sc. IT)**  
-  *Vidyalankar School of Information Technology (VSIT), Wadala, Mumbai*  
-  *Relevant Coursework: Database Management Systems (DBMS), Python Programming, Data Structures, Statistics & Numerical Methods.*
+* **BSc Information Technology**, Vidyalankar School of Information Technology (VSIT), Mumbai | Currently pursuing | SGPA: 8.6
+* **Diploma in AIARKP**
+* **Certification:** Data Science Mentorship Program, CampusX (in progress)
 
 ---
 
-### 📈 GitHub Analytics & Language Stats
+### 📈 GitHub Stats
 
 <p align="center">
-  <img
-    height="150"
-    src="https://github-readme-stats.vercel.app/api?username=ShaikhHamza104&show_icons=true&hide_border=true&title_color=0070f3&icon_color=0070f3"
-    alt="Hamza's GitHub statistics"
-  />
-  <img
-    height="150"
-    src="https://github-readme-stats.vercel.app/api/top-langs/?username=ShaikhHamza104&layout=compact&hide_border=true&title_color=0070f3"
-    alt="Most used programming languages"
-  />
+  <img height="150" src="https://github-readme-stats.vercel.app/api?username=ShaikhHamza104&show_icons=true&hide_border=true&title_color=0070f3&icon_color=0070f3" alt="GitHub statistics" />
+  <img height="150" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ShaikhHamza104&layout=compact&hide_border=true&title_color=0070f3" alt="Most used languages" />
 </p>
 
 ---
 
-### 📬 Connect With Me
+### 📬 Connect
 
 * **Email:** [kmohdhamza10@gmail.com](mailto:kmohdhamza10@gmail.com)
-* **LinkedIn:** [linkedin.com/in/hamza-shaikh-data](https://www.linkedin.com/in/hamza-shaikh-data)
-* **GitHub:** [github.com/ShaikhHamza104](https://github.com/ShaikhHamza104)
-* **Portfolio Assets & Code:** [Google Drive Shared Folder](https://drive.google.com/drive/folders/1iOYZ7cEFiwEuk6G9I05ev7sRdD0DBiFi?usp=sharing)
+**LinkedIn:** [linkedin.com/in/hamza-shaikh-data](https://www.linkedin.com/in/hamza-shaikh-data/)
+* **Portfolio:** [ShaikhHamza104.github.io](https://ShaikhHamza104.github.io)
