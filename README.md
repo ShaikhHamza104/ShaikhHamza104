@@ -119,15 +119,6 @@ Smartprix Listings ➔ Selenium Scraping ➔ Cleaning Module ➔ Analytics ➔ D
 
 ---
 
-### 📈 GitHub Stats
-
-<p align="center">
-  <img height="150" src="https://github-readme-stats.vercel.app/api?username=ShaikhHamza104&show_icons=true&hide_border=true&title_color=0070f3&icon_color=0070f3" alt="GitHub statistics" />
-  <img height="150" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ShaikhHamza104&layout=compact&hide_border=true&title_color=0070f3" alt="Most used languages" />
-</p>
-
----
-
 ### 📬 Connect
 
 * **Email:** [kmohdhamza10@gmail.com](mailto:kmohdhamza10@gmail.com)
