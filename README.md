@@ -4,7 +4,7 @@
   <p>📍 Mumbai, India</p>
 
   <p>
-    <a href="https://www.linkedin.com/in/hamza-shaikh-4a65b02a9">
+    <a href="https://www.linkedin.com/in/hamza-shaikh-data/">
       <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
     </a>
     <a href="https://github.com/ShaikhHamza104">
@@ -12,9 +12,6 @@
     </a>
     <a href="mailto:kmohdhamza10@gmail.com">
       <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
-    </a>
-    <a href="https://ShaikhHamza104.github.io">
-      <img src="https://img.shields.io/badge/Portfolio-0070f3?style=for-the-badge&logo=githubpages&logoColor=white" alt="Portfolio" />
     </a>
   </p>
 </div>
@@ -38,28 +35,36 @@ BSc IT student at VSIT, Mumbai, targeting **Data Analyst, BI Analyst, Junior Dat
 | **Data Engineering** | ETL pipelines, DuckDB, Apache Parquet, MySQL, SQLite, SQLAlchemy, Bronze/Silver data layers, data quality validation |
 | **Python** | Pandas, NumPy, Matplotlib, Seaborn, Plotly, Pydantic, pytest |
 | **APIs & Collection** | FastAPI, REST API design, ASGI middleware, Selenium, BeautifulSoup, Regex |
-| **Tools** | Git, GitHub, Docker, Streamlit, Jupyter, Marimo, Uvicorn, uv, Linux/Bash |
+| **Tools** | Git, GitHub, GitHub Actions, Docker, Streamlit, Jupyter, Marimo, Uvicorn, uv, Linux/Bash |
 
 ---
 
 ### 🚀 Featured Projects
 
-#### 1. 🏏 [CricPulse-Engine – High-Performance IPL Analytics API](https://github.com/ShaikhHamza104/CricPulse-Engine)
-`Python 3.13` `FastAPI` `DuckDB` `Apache Parquet` `Pydantic v2` `Uvicorn`
+#### 1. 🏏 [CricPulse Engine – High-Performance IPL Analytics API](https://github.com/ShaikhHamza104/CricPulse-Engine)
+
+🌐 **Live API & Interactive Docs:** [cricpulse-engine.onrender.com/docs](https://cricpulse-engine.onrender.com/docs)
 
 ```text
-Cricsheet Data ➔ ETL ➔ DuckDB Bronze (raw) ➔ Silver (cleaned) + Parquet ➔ FastAPI Endpoints
+Cricsheet Data ➔ ETL ➔ DuckDB Bronze (raw) ➔ Silver (cleaned) + Parquet ➔ FastAPI Endpoints ➔ Docker + CI/CD
 ```
 
-* Built an automated Python ETL pipeline processing **1,243 matches (295,000+ deliveries)** into DuckDB raw (Bronze) and cleaned (Silver) tables backed by Parquet.
+* Architected a **columnar OLAP analytical engine in DuckDB** with an automated Python ETL pipeline processing **1,243 matches (295,000+ deliveries)** into raw (Bronze) and cleaned (Silver) tables backed by Parquet.
 * Designed a **5-stage data quality gate**: resolved 51 missing venue/city records, harmonized franchise rebrandings, and validated 14,705 dismissals with 0 nulls.
-* Developed FastAPI + Pydantic v2 endpoints with **sub-30ms** analytical aggregations: player career profiles, head-to-head rivalries and season leaderboards.
-* Added ASGI middleware under a 512MB RAM limit: rate limiting (60 req/min), OWASP security headers, request ID tracing and latency profiling.
+* Built **9 REST endpoints** with FastAPI + Pydantic v2 and **sub-30ms** analytical aggregations: player career profiles, head-to-head rivalries and season leaderboards.
+* Added ASGI middleware under a 512MB RAM limit: sliding-window rate limiting (60 req/min), OWASP security headers, request ID tracing and latency profiling, covered by **92 automated tests**.
+* Containerized with **multi-stage Docker** and deployed to production with automated **GitHub Actions CI/CD**.
+
+**Skills Used:**
+
+* Python 3.13, FastAPI, Pydantic v2, Uvicorn, REST API design
+* DuckDB, Apache Parquet, ETL, Bronze/Silver data layers, data quality validation
+* ASGI middleware, rate limiting, OWASP security, pytest
+* Docker (multi-stage), GitHub Actions CI/CD, Git/GitHub
 
 ---
 
 #### 2. 📊 [Brazilian E-Commerce Analytics (Olist)](https://github.com/ShaikhHamza104/brazilian-ecommerce-analytics)
-`MySQL` `Python` `Pandas` `PyArrow` `Power BI` `DAX` `pytest`
 
 ```text
 9 Relational CSVs ➔ Python Cleaning ➔ MySQL (3NF) ➔ Star Schema (Parquet) ➔ 4-Page Power BI Report
@@ -70,10 +75,15 @@ Cricsheet Data ➔ ETL ➔ DuckDB Bronze (raw) ➔ Silver (cleaned) + Parquet �
 * **Findings:** late deliveries cut average review scores from 4.29 to 1.70; the top 17.65% of sellers generate about 80% of revenue; repeat buyers spend 91.3% more over their lifetime.
 * Separated `customer_id` from `customer_unique_id` to recover 3,217 repeat purchases; wrote 19 pytest tests for the cleaning package.
 
+**Skills Used:**
+
+* SQL (MySQL; CTEs, window functions, views), star-schema modeling
+* Python, Pandas, PyArrow, pytest
+* Power BI, DAX, Power Query, EDA
+
 ---
 
 #### 3. 📱 [SmartPulse – Mobile Phone Data Intelligence Platform](https://github.com/ShaikhHamza104/SmartPulse)
-`Python` `Selenium` `BeautifulSoup` `Pandas` `Docker` `Plotly`
 
 ```text
 Smartprix Listings ➔ Selenium Scraping ➔ Cleaning Module ➔ Analytics ➔ Docker Image
@@ -82,6 +92,12 @@ Smartprix Listings ➔ Selenium Scraping ➔ Cleaning Module ➔ Analytics ➔ D
 * Built a scraping and analytics pipeline collecting **500+ smartphone listings** from Smartprix, with retry logic and automatic pagination.
 * Wrote a cleaning module to standardize prices and specs and remove duplicates.
 * Containerized the app with Docker and published the image to Docker Hub.
+
+**Skills Used:**
+
+* Python, Selenium, BeautifulSoup, Pandas
+* Plotly, data cleaning, web scraping
+* Docker, Docker Hub
 
 ---
 
@@ -115,5 +131,5 @@ Smartprix Listings ➔ Selenium Scraping ➔ Cleaning Module ➔ Analytics ➔ D
 ### 📬 Connect
 
 * **Email:** [kmohdhamza10@gmail.com](mailto:kmohdhamza10@gmail.com)
-**LinkedIn:** [linkedin.com/in/hamza-shaikh-data](https://www.linkedin.com/in/hamza-shaikh-data/)
-* **Portfolio:** [ShaikhHamza104.github.io](https://ShaikhHamza104.github.io)
+* **LinkedIn:** [linkedin.com/in/hamza-shaikh-data](https://www.linkedin.com/in/hamza-shaikh-data/)
+* **GitHub:** [github.com/ShaikhHamza104](https://github.com/ShaikhHamza104)
